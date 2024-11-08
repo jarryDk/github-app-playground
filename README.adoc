@@ -1,0 +1,20 @@
+=  Github app playground
+
+== Create app
+
+https://docs.quarkiverse.io/quarkus-github-app/dev/create-github-app.html[Create a GitHub App]
+
+[source,bash]
+----
+mvn io.quarkus:quarkus-maven-plugin:3.16.0:create \
+    -DplatformVersion=3.16.0 \
+    -DprojectGroupId=dk.jarry \
+    -DprojectArtifactId=github-app \
+    -Dextensions="io.quarkiverse.githubapp:quarkus-github-app:2.7.0" \
+    -DnoCode
+----
+
+== Links
+
+- https://github.com/quarkiverse/quarkus-github-app
+- https://docs.quarkiverse.io/quarkus-github-app/dev/index.html
